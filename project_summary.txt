@@ -1,0 +1,19 @@
+Deep Learning Computer Vision Pipelines
+
+Course:
+EE623/723 Computer Vision
+
+Project tasks:
+1. CNN-based image classification using CIFAR-10
+2. Pretrained Faster R-CNN object detection using Pascal VOC images
+3. Vision Transformer classification using DeiT-Tiny
+4. UNet segmentation using Pascal VOC segmentation data
+5. GAN image generation using MNIST
+
+Reported results:
+CNN test accuracy: 75.15%
+Vision Transformer test accuracy: 84.26%
+UNet Dice coefficient: 0.0000
+
+Important issue:
+The segmentation result needs improvement because a Dice coefficient of 0.0000 means the model did not produce useful foreground segmentation. The GAN section also needs to be added to the notebook or uploaded separately.
